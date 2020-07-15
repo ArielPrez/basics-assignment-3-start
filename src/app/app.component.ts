@@ -12,6 +12,7 @@ export class AppComponent {
     styleColor = '';
     showDetails() {
         this.showText = !this.showText;
-        this.btnClics.push(this.btnClics.length + 1);
+        // this.btnClics.push(this.btnClics.length + 1);
+        this.btnClics.push(new Date());
     }
 }
